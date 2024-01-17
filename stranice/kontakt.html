@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Nikola Janjić"/>
+        <meta name="keywords" content="kontakt, poruka"/>
+        <meta name="desription" content="Kontaktirajte naš tim"/>
+        <title>Kontakt</title>
+        <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.min.css" />
+    </head>
+    <body>
+        <div id="uvod">
+            <header>
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="../index.html"><img src="../slike/logo.png" alt="logoDelfin" /></a> 
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="../index.html" class="nav-link nav-link-ltr">Početna</a></li>
+                            <li><a href="../stranice/onama.html" class="nav-link nav-link-ltr">O nama</a></li>
+                            <li><a href="../stranice/galerija.html" class="nav-link nav-link-ltr">Galerija</a></li>
+                            <li><a href="../stranice/kontakt.html" class="nav-link nav-link-ltr page">Kontakt</a></li>
+                            <li><a href="../stranice/cenovnik.html" class="nav-link nav-link-ltr">Cenovnik</a></li>
+                            <li><a href="../stranice/autor.html" class="nav-link nav-link-ltr">Autor</a></li>
+                        </ul>
+                    </nav>
+                    <div id="social">
+                        <a href="https://www.instagram.com/login/" target="_blank"><i class="fab fa-instagram mreze"></i></a>
+                        <a href="https://www.facebook.com/login/" target="_blank"><i class="fab fa-facebook-square mreze"></i></a>
+                        <a href="../rss.xml" target="_blank"><i class="fas fa-rss mreze"></i></a>
+                    </div>
+                </div>
+                <div id="textUvod">
+                    <h1>Ronilački klub Delfin</h1>
+                    <p>Uživajte u ronjenju sa nama</p>
+                </div>
+            </header>
+        </div>
+        
+        <main>
+            <div id="info">
+                <div class="wrapper">
+                    <div id="forma">
+                        <h1>Kontakt</h1>
+                        <form action="kontakt.php" method="post" id="kontakt" name="kontakt">
+                            <div class="inp"><input type="text" id="name" name="ime" placeholder="Ime&#42;" required/></div>
+                            <div class="inp"><input type="text" id="surname" name="prezime" placeholder="Prezime&#42;" required/></div>
+                            <div class="inp"><input type="mail" id="email" name="email" placeholder="E-mail"/></div>
+                            <div class="inp"><input type="text" id="telefon" name="telefon" placeholder="Telefon&#42;" required/></div>
+                            <div class="inp"><textarea rows="8" placeholder="Poruka"></textarea></div>
+                            <span>
+                                <input type="submit" id="potvrda" name="potvrda" value="Potvrdi">
+                            </span>
+                            <span>
+                                <input type="reset" id="reset" name="reset" value="Odustani">
+                            </span>
+                        </form>
+                    </div>
+                    <div id="mapa">
+                        <div id="infoText">
+                            <p><span>Adresa:</span> Crnotravska 4</p>
+                            <p><span>E-mail:</span>  delfinklubrs&#64;gmail&#46;com</p>
+                            <p><span>Telefon:</span> 060/55-99-222</p>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.866475929788!2d20.47272771580306!3d44.763137787967004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a710030e372b1%3A0xe86e1b60234f14f9!2z0JHQsNGa0LjRhtCw!5e0!3m2!1ssr!2srs!4v1641419590984!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="mapa"></iframe>
+                   </div>
+                </div>
+            </div>
+            
+           
+            
+        </main>
+        <footer>
+            <section class="wrapper">
+                <span class="logo">
+                    <a href="../index.html"><img src="../slike/logo.png" alt="logoDelfin" /></a> 
+                </span>
+                <span id="sitemap">
+                    <a href="../sitemap.xml" target="_blank"><i class="fas fa-sitemap sitemap"></i></a>
+                </span>
+                <span id="kontakt">
+                    <h2>Telefon</h2>
+                    <p><i class="fas fa-phone-square"></i> 060/55-99-222</p>
+                </span>
+                <span id="mail">
+                    <h2>E-mail</h2>
+                    <p><a href="http://www.google.com/gmail" target="_blank"><i class="fas fa-envelope-square"></i> delfinklubrs&#64;gmail&#46;com</a></p>
+                </span>
+                <span id="lokacija">
+                    <h2>Lokacija</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> Crnotravska 4</p>
+                </span>
+            </section>
+        </footer>
+
+        
+    </body>
+</html>

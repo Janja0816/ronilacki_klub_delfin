@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <rss version="2.0">
+    <channel>
+        <title>Ronilački klub Delfin</title>
+        <link>https://klubdelfin.000webhostapp.com</link>
+        <description>Uživajte u plivanju sa nama</description>
+        
+        <item>
+            <title>Početna</title>
+            <link>https://klubdelfin.000webhostapp.com/index.html</link>
+            <description>Ovde će biti izbacivane glavne aktivnosti vezane za naš klub</description>
+        </item>
+         <item>
+            <title>Cenovnik</title>
+            <link>https://klubdelfin.000webhostapp.com/cenovnik.html</link>
+            <description>Ovo su cene naših usluga, i biće ažurirane sa vremena na vreme</description>
+        </item>
+    </channel>
+ </rss> 
